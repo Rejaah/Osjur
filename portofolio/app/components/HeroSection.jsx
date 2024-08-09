@@ -9,10 +9,10 @@ const HeroSection = () => {
             Reza Ahmad Syarif
           </h1>
           <p className='text-white text-base sm:text-lg mb-3 lg:text-xl'>
-            Teknik Informatika - Institut Teknologi Bandung 
+            Computer Science - Bandung Institute of Technology 
           </p>
           <div>
-            <button className='px-6 py-3 rounded-full w-full sm:w-fit mr-4 mt-3 bg-white hover:bg-slate-200 text-black'  >Download CV</button>
+            <button className='px-6 py-3 rounded-full w-full sm:w-fit mr-4 my-3  bg-white hover:bg-slate-200 text-black'  >Download CV</button>
           </div>
         </div>
         <div className='col-span-5 mt-4 lg:mt-0 flex justify-center lg:justify-end'>

@@ -11,15 +11,16 @@ const AboutSection = () => {
       content: (
         <ul>
           <li>Python</li>
+          <li>Haskell</li>
+          <li>C++</li>
           <li>HTML</li>
           <li>CSS</li>
-          <li>Javascript</li>
         </ul>
       ),
     },
     {
-      title:"Interest",
-      id:"interest",
+      title:"Interests",
+      id:"interests",
       content: (
         <ul>
           <li>Web Development</li>
@@ -34,6 +35,15 @@ const AboutSection = () => {
       content: (
         <ul>
           <li>Bandung Institute of Technology</li>
+        </ul>
+      ),
+    },
+    {
+      title:"Achievement",
+      id:"achievement",
+      content: (
+        <ul>
+          <li>-</li>
         </ul>
       ),
     },
@@ -53,15 +63,13 @@ const AboutSection = () => {
         <div className='md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16'>
             <Image src='/images/computer.png' width={500} height={500}/>
             <div className='mt-4 md:mt-0 text-left flex flex-col h-full'>
-                <h2 className='text-4xl font-bold mb-4 '>About Me</h2>
+                <h2 className='text-2xl font-bold mb-4 md:text-2xl'>About Me</h2>
 
-                <p className='text-base lg:text-lg'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                Fusce at nibh in lacus faucibus bibendum. Mauris ut ante vulputate,
-                laoreet arcu eget, scelerisque sapien. Duis ac maximus odio, 
-                a convallis dui. Aenean condimentum nunc sed bibendum viverra. 
-                Nam ac elit blandit, ultricies ligula non, auctor nulla. Integer 
-                congue lacus vulputate velit vestibulum, vel aliquam urna pretium. 
-                Sed vel placerat massa, nec blandit nibh.</p>
+                <p className='text-base lg:text-lg'>
+                I am a second-year undergraduate student in Computer Science at the Bandung Institute of Technology, 
+                with a strong interest in Software Engineering and Artificial Intelligence. I have a solid foundation 
+                in Python, Haskell, C++, and Javascript. I'm driven to keep learning and contribute to innovative tech solutions.
+                </p>
 
                 <div className="flex flex-row justify-start mt-8">
                 <TabButton
@@ -71,16 +79,22 @@ const AboutSection = () => {
                 Skills{" "} 
                 </TabButton>
                 <TabButton
-                selectTab={() => handleTabChange("interest")} 
-                active={tab === "interest"}> 
+                selectTab={() => handleTabChange("interests")} 
+                active={tab === "interests"}> 
                 {" "}
-                Interest{" "} 
+                Interests{" "} 
                 </TabButton>              
                 <TabButton
                 selectTab={() => handleTabChange("education")} 
                 active={tab === "education"}> 
                 {" "}
                 Education{" "} 
+                </TabButton>
+                <TabButton
+                selectTab={() => handleTabChange("achievement")} 
+                active={tab === "achievement"}> 
+                {" "}
+                Achievement{" "} 
                 </TabButton>
                 </div>
                 <div className='mt-8'>{TAB_DATA.find((t) => t.id === tab).content}</div>
