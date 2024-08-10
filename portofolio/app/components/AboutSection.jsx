@@ -26,7 +26,6 @@ const AboutSection = () => {
           <li>Web Development</li>
           <li>Mobile Development</li>
           <li>Game Development</li>
-          <li>Artificial Intelligence</li>
         </ul>
       ),
     },
