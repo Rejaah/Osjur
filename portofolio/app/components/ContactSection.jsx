@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const ContactSection = () => {
   return (
-    <section className='gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16'>
+    <section id="contact" className='gap-8 items-center py-4 px-4 xl:gap-8 sm:py-8 xl:px-16'>
         <div>
             <h5 className='text-2xl font-bold text-white my-2'>Let's Connect</h5>
             <p className='text-[#ADB7BE] mb-4 max-w-xl'>

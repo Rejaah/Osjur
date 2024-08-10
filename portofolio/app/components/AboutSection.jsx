@@ -25,6 +25,7 @@ const AboutSection = () => {
         <ul>
           <li>Web Development</li>
           <li>Mobile Development</li>
+          <li>Game Development</li>
           <li>Artificial Intelligence</li>
         </ul>
       ),
@@ -60,13 +61,13 @@ const AboutSection = () => {
 
   return (
     <section className='text-white'>
-        <div className='md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16'>
+        <div className='md:grid md:grid-cols-2 gap-8 items-center py-4 px-4 xl:gap-16 sm:py-16 xl:px-16'>
             <Image src='/images/computer.png' width={500} height={500}/>
             <div className='mt-4 md:mt-0 text-left flex flex-col h-full'>
                 <h2 className='text-2xl font-bold mb-4 md:text-2xl'>About Me</h2>
 
                 <p className='text-base lg:text-lg'>
-                I am a second-year undergraduate student in Computer Science at the Bandung Institute of Technology, 
+                I am a second-year undergraduate student in Informatics Engineering at the Bandung Institute of Technology, 
                 with a strong interest in Software Engineering and Artificial Intelligence. I have a solid foundation 
                 in Python, Haskell, C++, and Javascript. I'm driven to keep learning and contribute to innovative tech solutions.
                 </p>
