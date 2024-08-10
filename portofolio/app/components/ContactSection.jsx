@@ -14,10 +14,10 @@ const ContactSection = () => {
         </div>
         <div className='socials flex flex-row gap-2'>
             <Link href="https://www.instagram.com/rzahmadsyarif?">
-                <Image src="/images/instagram icon.png" width={48} height={48}></Image>
+                <Image src="/images/instagram icon.png" alt="Instagram icon" width={48} height={48}></Image>
             </Link>
             <Link href="https://www.linkedin.com/in/reza-ahmad-syarif">
-                <Image src="/images/linkedin icon.png" width={48} height={48}></Image>
+                <Image src="/images/linkedin icon.png" alt="LinkeIn Icon"width={48} height={48}></Image>
             </Link>
         </div>
     </section>
