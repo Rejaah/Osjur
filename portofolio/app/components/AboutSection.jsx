@@ -69,7 +69,7 @@ const AboutSection = () => {
                 <p className='text-base lg:text-lg'>
                 I am a second-year undergraduate student in Informatics Engineering at the Bandung Institute of Technology, 
                 with a strong interest in Software Engineering and Artificial Intelligence. I have a solid foundation 
-                in Python, Haskell, C++, and Javascript. I'm driven to keep learning and contribute to innovative tech solutions.
+                in Python, Haskell, C++, and Javascript. I am driven to keep learning and contribute to innovative tech solutions.
                 </p>
 
                 <div className="flex flex-row justify-start mt-8">
