@@ -9,7 +9,7 @@ Cara menjalankan program:
 4. Buka browser dan akses http://localhost:3000 untuk melihat website portofolio
 
 Bonus:
-1. Deployment (Status: Tidak Mengerjakan)
+1. Deployment (Status: Selesai)
 2. Tampilan yang Responsif (Status: Selesai)
 3. Penggunaan Basis data atau CMS (Status: Tidak Mengerjakan)
 4. Kreativitas (Status: Selesai)
