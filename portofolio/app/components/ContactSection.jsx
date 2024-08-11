@@ -6,7 +6,7 @@ const ContactSection = () => {
   return (
     <section id="contact" className='gap-8 items-center py-4 px-4 xl:gap-8 sm:py-8 xl:px-16'>
         <div>
-            <h5 className='text-2xl font-bold text-white my-2'>Let's Connect</h5>
+            <h5 className='text-2xl font-bold text-white my-2'>Let&apos;s Connect</h5>
             <p className='text-[#ADB7BE] mb-4 max-w-xl'>
             I am always open to discussing new projects, creative ideas, or opportunities to be part of your vision. 
             Whether you have a question, a proposal, or just want to say hello, feel free to reach out. I look forward to connecting with you!
